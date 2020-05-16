@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Post To Twitter Action
-      uses: rahulnpadalkar/sheddit-action@v1
+      uses: rahulnpadalkar/sheddit-action@v1.1
       with:
         tweet: Sheddit test action
         serverurl: http://159.65.149.234:7009
